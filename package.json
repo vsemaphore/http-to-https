@@ -1,0 +1,10 @@
+{
+  "name": "http-to-https",
+  "version": "0.0.1",
+  "description": "Simple HTTP to HTTPS GET proxy to workaround SSL bug in YaRSS2 plugin bug",
+  "author": "Michał Buczek <michal@buczek.cc>",
+  "main": "h2hs.js",
+  "dependencies": {
+  },
+  "license": "MIT"
+}
