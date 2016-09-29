@@ -5,6 +5,7 @@
   "author": "Michał Buczek <michal@buczek.cc>",
   "main": "h2hs.js",
   "dependencies": {
+    "cli": "^1.0.0"
   },
   "license": "MIT"
 }
