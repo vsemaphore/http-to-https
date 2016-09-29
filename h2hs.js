@@ -35,7 +35,6 @@ cli.main((args, options) => {
             });
 
             res.on('end', () => {
-                console.log(msg, 'res.End');
                 response.end();
             })
 
