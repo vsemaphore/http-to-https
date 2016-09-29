@@ -23,7 +23,6 @@ cli.main((args, options) => {
         console.log(msg, 'Loading website');
 
         https.get(url, (res) => {
-            console.log('statusCode:', res.statusCode);
             response.statusCode = res.statusCode;
 
             for(let header in res.headers) {
